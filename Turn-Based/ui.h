@@ -2,4 +2,8 @@
 #include "player.h"
 #include "enemy.h"
 
-void drawBeginnfight(player& player, enemy& enemy);
+void drawBeginnfight(const player& player,const enemy& enemy);
+
+player::attacks playerAttackInput();
+
+void drawStatus(const player& player, const enemy& enemy);
